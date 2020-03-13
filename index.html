@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+<div class="container">
+  <div class="left-content">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+    but understanding how developers think is invaluable.</p>
+  </div>
+  <div class="right-content">
+    <a href="#"class="btn btn-accent">Try it free 7 days<span class="small-text"> then $20/mo. thereafter</span> </a>
+    <div class="form-container">
+      <form action="" class="form-group">
+        <div class="form-item">
+          <label for="FirstName"></label>
+          <input type="text" name="FirstName" id="FirstName" placeholder="First Name">
+          <img src="images/icon-error.svg" alt="error-icon">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>error</small>
+        </div>
+        <div class="form-item">
+          <label for="LastName"></label>
+          <input type="text" name="LastName" id="LastName" placeholder="Last Name">
+          <img src="images/icon-error.svg" alt="error-icon">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>error</small>
+        </div>
+        <div class="form-item">
+          <label for="Email"></label>
+          <input type="text" name="Email" id="Email" placeholder="Email Address">
+          <img src="images/icon-error.svg" alt="error-icon">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>error</small>
+        </div>
+        <div class="form-item">
+          <label for="Password"></label>
+          <input type="password" name="Password" id="Password" placeholder="Password">
+          <img src="images/icon-error.svg" alt="error-icon">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          <small>error</small>
+        </div>
+        <button class="btn btn-submit">Claim your free trial</button>
+      </form>
+      <p>By clicking the button, you are agreeing to our <a href="#"> Terms and Services</a></p>
+    </div>
+  </div>
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
